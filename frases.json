@@ -1,0 +1,1072 @@
+[
+  {
+    "texto": "Haz lo que debes hacer, incluso cuando no tengas ganas.",
+    "categoria": "Disciplina",
+    "id": "D-001"
+  },
+  {
+    "texto": "Ámate lo suficiente para no aceptar menos de lo que mereces.",
+    "categoria": "Autoestima",
+    "id": "AU-001"
+  },
+  {
+    "texto": "La actitud de gratitud abre puertas.",
+    "categoria": "Gratitud",
+    "id": "G-001"
+  },
+  {
+    "texto": "La constancia vence al talento cuando el talento no es constante.",
+    "categoria": "Disciplina",
+    "id": "D-002"
+  },
+  {
+    "texto": "El éxito no es casualidad, es disciplina diaria.",
+    "categoria": "Disciplina",
+    "id": "D-003"
+  },
+  {
+    "texto": "La gratitud es el secreto de una vida plena.",
+    "categoria": "Gratitud",
+    "id": "G-002"
+  },
+  {
+    "texto": "Valórate, porque lo que piensas de ti mismo lo proyectas.",
+    "categoria": "Autoestima",
+    "id": "AU-002"
+  },
+  {
+    "texto": "Eres suficiente tal y como eres.",
+    "categoria": "Autoestima",
+    "id": "AU-003"
+  },
+  {
+    "texto": "El agradecimiento transforma el alma.",
+    "categoria": "Gratitud",
+    "id": "G-003"
+  },
+  {
+    "texto": "Tu luz no necesita permiso para brillar.",
+    "categoria": "Autoestima",
+    "id": "AU-004"
+  },
+  {
+    "texto": "Trabaja en silencio, deja que el éxito hable por ti.",
+    "categoria": "Disciplina",
+    "id": "D-004"
+  },
+  {
+    "texto": "La gratitud convierte lo que tienes en suficiente.",
+    "categoria": "Gratitud",
+    "id": "G-004"
+  },
+  {
+    "texto": "Eres más fuerte de lo que piensas.",
+    "categoria": "Autoestima",
+    "id": "AU-005"
+  },
+  {
+    "texto": "Incluso los días difíciles traen lecciones por agradecer.",
+    "categoria": "Gratitud",
+    "id": "G-005"
+  },
+  {
+    "texto": "Tu valor no depende de la opinión de los demás.",
+    "categoria": "Autoestima",
+    "id": "AU-006"
+  },
+  {
+    "texto": "Una hora al día dedicada a tu meta vale más que nada.",
+    "categoria": "Disciplina",
+    "id": "D-005"
+  },
+  {
+    "texto": "No siempre tendrás motivación, por eso debes desarrollar disciplina.",
+    "categoria": "Disciplina",
+    "id": "D-006"
+  },
+  {
+    "texto": "Encuentra algo por lo cual estar agradecido hoy.",
+    "categoria": "Gratitud",
+    "id": "G-006"
+  },
+  {
+    "texto": "Cree en ti mismo y todo será posible.",
+    "categoria": "Autoestima",
+    "id": "AU-007"
+  },
+  {
+    "texto": "Nunca te compares, tú eres único.",
+    "categoria": "Autoestima",
+    "id": "AU-008"
+  },
+  {
+    "texto": "Confía en el proceso y en quien estás llegando a ser.",
+    "categoria": "Autoestima",
+    "id": "AU-009"
+  },
+  {
+    "texto": "No necesitas ser perfecto para ser valioso.",
+    "categoria": "Autoestima",
+    "id": "AU-010"
+  },
+  {
+    "texto": "La disciplina es elegir entre lo que quieres ahora y lo que más deseas.",
+    "categoria": "Disciplina",
+    "id": "D-007"
+  },
+  {
+    "texto": "El éxito no llega por accidente, sino por consistencia.",
+    "categoria": "Disciplina",
+    "id": "D-008"
+  },
+  {
+    "texto": "Levántate incluso cuando no tengas ganas: eso es disciplina.",
+    "categoria": "Disciplina",
+    "id": "D-009"
+  },
+  {
+    "texto": "Los pequeños hábitos diarios construyen grandes logros.",
+    "categoria": "Disciplina",
+    "id": "D-010"
+  },
+  {
+    "texto": "Hazlo con disciplina y el resultado será inevitable.",
+    "categoria": "Disciplina",
+    "id": "D-011"
+  },
+  {
+    "texto": "No esperes a estar motivado, actúa con disciplina.",
+    "categoria": "Disciplina",
+    "id": "D-012"
+  },
+  {
+    "texto": "Tu esfuerzo constante define tu futuro.",
+    "categoria": "Disciplina",
+    "id": "D-013"
+  },
+  {
+    "texto": "Dominar tu mente es la clave de la disciplina.",
+    "categoria": "Disciplina",
+    "id": "D-014"
+  },
+  {
+    "texto": "Sé fiel a tus metas incluso cuando nadie te observe.",
+    "categoria": "Disciplina",
+    "id": "D-015"
+  },
+  {
+    "texto": "La acción repetida crea excelencia.",
+    "categoria": "Disciplina",
+    "id": "D-016"
+  },
+  {
+    "texto": "La disciplina transforma lo imposible en posible.",
+    "categoria": "Disciplina",
+    "id": "D-017"
+  },
+  {
+    "texto": "Persistir cuando quieres rendirte es disciplina pura.",
+    "categoria": "Disciplina",
+    "id": "D-018"
+  },
+  {
+    "texto": "El verdadero cambio viene con constancia.",
+    "categoria": "Disciplina",
+    "id": "D-019"
+  },
+  {
+    "texto": "Los resultados visibles nacen del esfuerzo invisible.",
+    "categoria": "Disciplina",
+    "id": "D-020"
+  },
+  {
+    "texto": "Haz lo necesario hoy para vivir como sueñas mañana.",
+    "categoria": "Disciplina",
+    "id": "D-021"
+  },
+  {
+    "texto": "Tu futuro depende de lo que hagas cada día.",
+    "categoria": "Disciplina",
+    "id": "D-022"
+  },
+  {
+    "texto": "Entrénate para cumplir lo que prometes.",
+    "categoria": "Disciplina",
+    "id": "D-023"
+  },
+  {
+    "texto": "Repite, mejora, repite. Esa es la fórmula.",
+    "categoria": "Disciplina",
+    "id": "D-024"
+  },
+  {
+    "texto": "No se trata de velocidad, sino de constancia.",
+    "categoria": "Disciplina",
+    "id": "D-025"
+  },
+  {
+    "texto": "Las metas sin disciplina son solo deseos.",
+    "categoria": "Disciplina",
+    "id": "D-026"
+  },
+  {
+    "texto": "La práctica diaria te hará imparable.",
+    "categoria": "Disciplina",
+    "id": "D-027"
+  },
+  {
+    "texto": "No importa cómo te sientas, haz lo que tienes que hacer.",
+    "categoria": "Disciplina",
+    "id": "D-028"
+  },
+  {
+    "texto": "Superar la pereza es un acto de fuerza interna.",
+    "categoria": "Disciplina",
+    "id": "D-029"
+  },
+  {
+    "texto": "No fallas por debilidad, fallas por falta de constancia.",
+    "categoria": "Disciplina",
+    "id": "D-030"
+  },
+  {
+    "texto": "La diferencia entre los sueños y los logros es la disciplina.",
+    "categoria": "Disciplina",
+    "id": "D-031"
+  },
+  {
+    "texto": "Controlar tus impulsos te lleva al siguiente nivel.",
+    "categoria": "Disciplina",
+    "id": "D-032"
+  },
+  {
+    "texto": "Sé constante, incluso si vas lento.",
+    "categoria": "Disciplina",
+    "id": "D-033"
+  },
+  {
+    "texto": "La clave está en no detenerte.",
+    "categoria": "Disciplina",
+    "id": "D-034"
+  },
+  {
+    "texto": "Quien se esfuerza a diario, mejora sin notarlo.",
+    "categoria": "Disciplina",
+    "id": "D-035"
+  },
+  {
+    "texto": "La disciplina es amor propio en acción.",
+    "categoria": "Disciplina",
+    "id": "D-036"
+  },
+  {
+    "texto": "El talento te inicia, la disciplina te sostiene.",
+    "categoria": "Disciplina",
+    "id": "D-037"
+  },
+  {
+    "texto": "Cumple tu palabra contigo mismo.",
+    "categoria": "Disciplina",
+    "id": "D-038"
+  },
+  {
+    "texto": "Ganar el día comienza al despertar temprano.",
+    "categoria": "Disciplina",
+    "id": "D-039"
+  },
+  {
+    "texto": "No te rindas, repite.",
+    "categoria": "Disciplina",
+    "id": "D-040"
+  },
+  {
+    "texto": "Si lo repites, lo perfeccionas.",
+    "categoria": "Disciplina",
+    "id": "D-041"
+  },
+  {
+    "texto": "La vida premia a quienes se mantienen firmes.",
+    "categoria": "Disciplina",
+    "id": "D-042"
+  },
+  {
+    "texto": "Entrena tu mente a largo plazo.",
+    "categoria": "Disciplina",
+    "id": "D-043"
+  },
+  {
+    "texto": "Elimina excusas, fortalece tu voluntad.",
+    "categoria": "Disciplina",
+    "id": "D-044"
+  },
+  {
+    "texto": "Esfuérzate hoy para no lamentarlo mañana.",
+    "categoria": "Disciplina",
+    "id": "D-045"
+  },
+  {
+    "texto": "El amor crece cuando se comparte sin condiciones.",
+    "categoria": "Amor",
+    "id": "A-020"
+  },
+  {
+    "texto": "Pequeños gestos de amor generan grandes cambios.",
+    "categoria": "Amor",
+    "id": "A-021"
+  },
+  {
+    "texto": "El amor se fortalece con respeto y comprensión.",
+    "categoria": "Amor",
+    "id": "A-022"
+  },
+  {
+    "texto": "Amar es aceptar a alguien con sus luces y sombras.",
+    "categoria": "Amor",
+    "id": "A-023"
+  },
+  {
+    "texto": "El verdadero amor inspira, no ata.",
+    "categoria": "Amor",
+    "id": "A-024"
+  },
+  {
+    "texto": "Amar es apoyar los sueños del otro.",
+    "categoria": "Amor",
+    "id": "A-025"
+  },
+  {
+    "texto": "El amor auténtico se construye día a día.",
+    "categoria": "Amor",
+    "id": "A-026"
+  },
+  {
+    "texto": "Donde hay amor, florece la vida.",
+    "categoria": "Amor",
+    "id": "A-027"
+  },
+  {
+    "texto": "El amor verdadero enseña sin exigir.",
+    "categoria": "Amor",
+    "id": "A-028"
+  },
+  {
+    "texto": "El amor se refleja en las acciones, no en las palabras.",
+    "categoria": "Amor",
+    "id": "A-029"
+  },
+  {
+    "texto": "Amar es dar libertad y confianza al otro.",
+    "categoria": "Amor",
+    "id": "A-030"
+  },
+  {
+    "texto": "El amor es paciente y no guarda rencor.",
+    "categoria": "Amor",
+    "id": "A-031"
+  },
+  {
+    "texto": "El amor sincero siempre busca lo mejor para ambos.",
+    "categoria": "Amor",
+    "id": "A-032"
+  },
+  {
+    "texto": "Amar es aprender a perdonar y valorar.",
+    "categoria": "Amor",
+    "id": "A-033"
+  },
+  {
+    "texto": "El amor es el hilo que une corazones distintos.",
+    "categoria": "Amor",
+    "id": "A-034"
+  },
+  {
+    "texto": "Agradece cada día, incluso por lo más simple.",
+    "categoria": "Gratitud",
+    "id": "G-028"
+  },
+  {
+    "texto": "La gratitud transforma la mente y el corazón.",
+    "categoria": "Gratitud",
+    "id": "G-029"
+  },
+  {
+    "texto": "Ser agradecido multiplica la felicidad.",
+    "categoria": "Gratitud",
+    "id": "G-030"
+  },
+  {
+    "texto": "Agradecer lo que tienes atrae más bendiciones.",
+    "categoria": "Gratitud",
+    "id": "G-031"
+  },
+  {
+    "texto": "La gratitud convierte lo cotidiano en extraordinario.",
+    "categoria": "Gratitud",
+    "id": "G-032"
+  },
+  {
+    "texto": "Un corazón agradecido vive en paz.",
+    "categoria": "Gratitud",
+    "id": "G-033"
+  },
+  {
+    "texto": "Agradecer es reconocer la belleza de cada instante.",
+    "categoria": "Gratitud",
+    "id": "G-034"
+  },
+  {
+    "texto": "La gratitud es la llave de la felicidad.",
+    "categoria": "Gratitud",
+    "id": "G-035"
+  },
+  {
+    "texto": "Ser agradecido fortalece las relaciones.",
+    "categoria": "Gratitud",
+    "id": "G-036"
+  },
+  {
+    "texto": "Agradecer enseña a valorar lo que tenemos.",
+    "categoria": "Gratitud",
+    "id": "G-037"
+  },
+  {
+    "texto": "La gratitud eleva el espíritu y la mente.",
+    "categoria": "Gratitud",
+    "id": "G-038"
+  },
+  {
+    "texto": "Reconoce los pequeños regalos de la vida.",
+    "categoria": "Gratitud",
+    "id": "G-039"
+  },
+  {
+    "texto": "La gratitud te conecta con la abundancia del universo.",
+    "categoria": "Gratitud",
+    "id": "G-040"
+  },
+  {
+    "texto": "Ser agradecido es cultivar alegría interna.",
+    "categoria": "Gratitud",
+    "id": "G-041"
+  },
+  {
+    "texto": "Agradece cada día como un regalo único.",
+    "categoria": "Gratitud",
+    "id": "G-042"
+  },
+  {
+    "texto": "La sabiduría nace de escuchar y observar.",
+    "categoria": "Sabiduría",
+    "id": "S-017"
+  },
+  {
+    "texto": "Aprender de los errores es señal de sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-018"
+  },
+  {
+    "texto": "La paciencia y la reflexión son fuentes de sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-019"
+  },
+  {
+    "texto": "El sabio habla menos y escucha más.",
+    "categoria": "Sabiduría",
+    "id": "S-020"
+  },
+  {
+    "texto": "Saber cuándo actuar es parte de la sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-021"
+  },
+  {
+    "texto": "La humildad es el primer paso hacia la sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-022"
+  },
+  {
+    "texto": "La sabiduría se demuestra con acciones, no palabras.",
+    "categoria": "Sabiduría",
+    "id": "S-023"
+  },
+  {
+    "texto": "El conocimiento sin comprensión no es sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-024"
+  },
+  {
+    "texto": "Aprender de los demás multiplica la sabiduría propia.",
+    "categoria": "Sabiduría",
+    "id": "S-025"
+  },
+  {
+    "texto": "La experiencia es la base de la verdadera sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-026"
+  },
+  {
+    "texto": "El sabio reconoce sus limitaciones y aprende de ellas.",
+    "categoria": "Sabiduría",
+    "id": "S-027"
+  },
+  {
+    "texto": "La reflexión convierte el conocimiento en sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-028"
+  },
+  {
+    "texto": "Saber escuchar es un acto de verdadera sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-029"
+  },
+  {
+    "texto": "El sabio aprende a actuar con calma ante la adversidad.",
+    "categoria": "Sabiduría",
+    "id": "S-030"
+  },
+  {
+    "texto": "La sabiduría guía al corazón en momentos difíciles.",
+    "categoria": "Sabiduría",
+    "id": "S-031"
+  },
+  {
+    "texto": "No eres tus excusas, eres tus acciones.",
+    "categoria": "Disciplina",
+    "id": "D-046"
+  },
+  {
+    "texto": "Cada día es una oportunidad para ser constante.",
+    "categoria": "Disciplina",
+    "id": "D-047"
+  },
+  {
+    "texto": "Pequeños pasos, grandes resultados.",
+    "categoria": "Disciplina",
+    "id": "D-048"
+  },
+  {
+    "texto": "Haz que tu esfuerzo hable por ti.",
+    "categoria": "Disciplina",
+    "id": "D-049"
+  },
+  {
+    "texto": "Cumple incluso sin testigos.",
+    "categoria": "Disciplina",
+    "id": "D-050"
+  },
+  {
+    "texto": "Trabaja mientras otros descansan.",
+    "categoria": "Disciplina",
+    "id": "D-051"
+  },
+  {
+    "texto": "Haz que tu rutina te acerque a tu meta.",
+    "categoria": "Disciplina",
+    "id": "D-052"
+  },
+  {
+    "texto": "La constancia rompe límites.",
+    "categoria": "Disciplina",
+    "id": "D-053"
+  },
+  {
+    "texto": "El compromiso diario vale más que el talento ocasional.",
+    "categoria": "Disciplina",
+    "id": "D-054"
+  },
+  {
+    "texto": "Sigue adelante, incluso si dudas.",
+    "categoria": "Disciplina",
+    "id": "D-055"
+  },
+  {
+    "texto": "La disciplina construye la versión que quieres ser.",
+    "categoria": "Disciplina",
+    "id": "D-056"
+  },
+  {
+    "texto": "No te detengas hasta estar orgulloso.",
+    "categoria": "Disciplina",
+    "id": "D-057"
+  },
+  {
+    "texto": "Una mente enfocada no necesita motivación.",
+    "categoria": "Disciplina",
+    "id": "D-058"
+  },
+  {
+    "texto": "Haz de la rutina tu aliada.",
+    "categoria": "Disciplina",
+    "id": "D-059"
+  },
+  {
+    "texto": "Practica con intención, no por obligación.",
+    "categoria": "Disciplina",
+    "id": "D-060"
+  },
+  {
+    "texto": "Repite lo bueno hasta que sea natural.",
+    "categoria": "Disciplina",
+    "id": "D-061"
+  },
+  {
+    "texto": "Tus hábitos hablan más que tus palabras.",
+    "categoria": "Disciplina",
+    "id": "D-062"
+  },
+  {
+    "texto": "La excelencia nace del esfuerzo continuo.",
+    "categoria": "Disciplina",
+    "id": "D-063"
+  },
+  {
+    "texto": "Transforma la pereza en hábito de acción.",
+    "categoria": "Disciplina",
+    "id": "D-064"
+  },
+  {
+    "texto": "Tu persistencia determinará tu éxito.",
+    "categoria": "Disciplina",
+    "id": "D-065"
+  },
+  {
+    "texto": "Sé ejemplo de compromiso silencioso.",
+    "categoria": "Disciplina",
+    "id": "D-066"
+  },
+  {
+    "texto": "Repite hasta dominar.",
+    "categoria": "Disciplina",
+    "id": "D-067"
+  },
+  {
+    "texto": "Sé leal a tu proceso.",
+    "categoria": "Disciplina",
+    "id": "D-068"
+  },
+  {
+    "texto": "Cada día suma si trabajas con intención.",
+    "categoria": "Disciplina",
+    "id": "D-069"
+  },
+  {
+    "texto": "El esfuerzo no se negocia.",
+    "categoria": "Disciplina",
+    "id": "D-070"
+  },
+  {
+    "texto": "Haz del esfuerzo un hábito diario.",
+    "categoria": "Disciplina",
+    "id": "D-071"
+  },
+  {
+    "texto": "Una meta sin acción es solo una ilusión.",
+    "categoria": "Disciplina",
+    "id": "D-072"
+  },
+  {
+    "texto": "Tu futuro está en tu constancia.",
+    "categoria": "Disciplina",
+    "id": "D-073"
+  },
+  {
+    "texto": "Construye una rutina que te haga fuerte.",
+    "categoria": "Disciplina",
+    "id": "D-074"
+  },
+  {
+    "texto": "Tu valor es incalculable, no lo midas con estándares ajenos.",
+    "categoria": "Autoestima",
+    "id": "AU-011"
+  },
+  {
+    "texto": "Cada día tienes una nueva oportunidad para amarte más.",
+    "categoria": "Autoestima",
+    "id": "AU-012"
+  },
+  {
+    "texto": "Tu amor propio es la base de todas tus relaciones.",
+    "categoria": "Autoestima",
+    "id": "AU-013"
+  },
+  {
+    "texto": "Eres digno de cosas buenas en la vida.",
+    "categoria": "Autoestima",
+    "id": "AU-015"
+  },
+  {
+    "texto": "Confía en tus decisiones, tú conoces tu camino.",
+    "categoria": "Autoestima",
+    "id": "AU-016"
+  },
+  {
+    "texto": "Acepta tus imperfecciones, ellas te hacen único.",
+    "categoria": "Autoestima",
+    "id": "AU-017"
+  },
+  {
+    "texto": "Sé amable contigo mismo, siempre.",
+    "categoria": "Autoestima",
+    "id": "AU-018"
+  },
+  {
+    "texto": "Agradecer lo pequeño te prepara para recibir lo grande.",
+    "categoria": "Gratitud",
+    "id": "G-007"
+  },
+  {
+    "texto": "La gratitud convierte los problemas en aprendizajes.",
+    "categoria": "Gratitud",
+    "id": "G-008"
+  },
+  {
+    "texto": "Un corazón agradecido siempre encuentra paz.",
+    "categoria": "Gratitud",
+    "id": "G-009"
+  },
+  {
+    "texto": "El amor verdadero no se busca, se construye día a día.",
+    "categoria": "Amor",
+    "id": "A-001"
+  },
+  {
+    "texto": "La gratitud abre los ojos a las bendiciones que ya tienes.",
+    "categoria": "Gratitud",
+    "id": "G-010"
+  },
+  {
+    "texto": "La sabiduría comienza con el silencio y la escucha.",
+    "categoria": "Sabiduría",
+    "id": "S-001"
+  },
+  {
+    "texto": "Amar también es aceptar las diferencias.",
+    "categoria": "Amor",
+    "id": "A-002"
+  },
+  {
+    "texto": "La gratitud convierte cada día en un regalo.",
+    "categoria": "Gratitud",
+    "id": "G-011"
+  },
+  {
+    "texto": "El sabio aprende más de una pregunta que de mil respuestas.",
+    "categoria": "Sabiduría",
+    "id": "S-002"
+  },
+  {
+    "texto": "Donde hay amor, no hay miedo.",
+    "categoria": "Amor",
+    "id": "A-003"
+  },
+  {
+    "texto": "La gratitud es el lenguaje del alma feliz.",
+    "categoria": "Gratitud",
+    "id": "G-012"
+  },
+  {
+    "texto": "Amar es dar sin esperar nada a cambio.",
+    "categoria": "Amor",
+    "id": "A-004"
+  },
+  {
+    "texto": "La sabiduría no está en saber mucho, sino en vivir mejor.",
+    "categoria": "Sabiduría",
+    "id": "S-003"
+  },
+  {
+    "texto": "El amor se mide en acciones, no en palabras.",
+    "categoria": "Amor",
+    "id": "A-005"
+  },
+  {
+    "texto": "Quien agradece lo que tiene, vive en abundancia.",
+    "categoria": "Gratitud",
+    "id": "G-013"
+  },
+  {
+    "texto": "La verdadera sabiduría es reconocer lo que no sabemos.",
+    "categoria": "Sabiduría",
+    "id": "S-004"
+  },
+  {
+    "texto": "El amor propio es la raíz de todo amor verdadero.",
+    "categoria": "Amor",
+    "id": "A-006"
+  },
+  {
+    "texto": "La gratitud ilumina incluso los días más oscuros.",
+    "categoria": "Gratitud",
+    "id": "G-014"
+  },
+  {
+    "texto": "El sabio entiende que cada obstáculo trae una enseñanza.",
+    "categoria": "Sabiduría",
+    "id": "S-005"
+  },
+  {
+    "texto": "El amor no es posesión, es libertad compartida.",
+    "categoria": "Amor",
+    "id": "A-007"
+  },
+  {
+    "texto": "La gratitud es la memoria del corazón.",
+    "categoria": "Gratitud",
+    "id": "G-015"
+  },
+  {
+    "texto": "Tu voz merece ser escuchada, no la calles.",
+    "categoria": "Autoestima",
+    "id": "AU-033"
+  },
+  {
+    "texto": "Cada día que te aceptas, creces más.",
+    "categoria": "Autoestima",
+    "id": "AU-034"
+  },
+  {
+    "texto": "La felicidad comienza cuando te valoras de verdad.",
+    "categoria": "Autoestima",
+    "id": "AU-035"
+  },
+  {
+    "texto": "Ama sin miedo y sin condiciones.",
+    "categoria": "Amor",
+    "id": "A-016"
+  },
+  {
+    "texto": "El amor se construye con paciencia y respeto.",
+    "categoria": "Amor",
+    "id": "A-017"
+  },
+  {
+    "texto": "Donde hay amor, hay hogar.",
+    "categoria": "Amor",
+    "id": "A-018"
+  },
+  {
+    "texto": "Amar es apoyar incluso desde la distancia.",
+    "categoria": "Amor",
+    "id": "A-019"
+  },
+  {
+    "texto": "La sabiduría consiste en elegir bien en el momento oportuno.",
+    "categoria": "Sabiduría",
+    "id": "S-006"
+  },
+  {
+    "texto": "El amor verdadero multiplica, nunca resta.",
+    "categoria": "Amor",
+    "id": "A-008"
+  },
+  {
+    "texto": "El amor es la respuesta a casi todo en la vida.",
+    "categoria": "Amor",
+    "id": "A-009"
+  },
+  {
+    "texto": "La sabiduría no busca brillar, busca servir.",
+    "categoria": "Sabiduría",
+    "id": "S-007"
+  },
+  {
+    "texto": "Quien agradece lo poco, merece lo mucho.",
+    "categoria": "Gratitud",
+    "id": "G-016"
+  },
+  {
+    "texto": "El amor auténtico te hace crecer, no disminuir.",
+    "categoria": "Amor",
+    "id": "A-010"
+  },
+  {
+    "texto": "La gratitud es un imán para la abundancia.",
+    "categoria": "Gratitud",
+    "id": "G-017"
+  },
+  {
+    "texto": "La sabiduría es aceptar lo que no puedes cambiar.",
+    "categoria": "Sabiduría",
+    "id": "S-008"
+  },
+  {
+    "texto": "Amar es dar lo mejor de ti sin miedo a perder.",
+    "categoria": "Amor",
+    "id": "A-011"
+  },
+  {
+    "texto": "La gratitud convierte lo ordinario en extraordinario.",
+    "categoria": "Gratitud",
+    "id": "G-018"
+  },
+  {
+    "texto": "El sabio sabe que la paciencia siempre da frutos.",
+    "categoria": "Sabiduría",
+    "id": "S-009"
+  },
+  {
+    "texto": "El amor es el puente entre dos almas.",
+    "categoria": "Amor",
+    "id": "A-012"
+  },
+  {
+    "texto": "La gratitud abre espacio a nuevas bendiciones.",
+    "categoria": "Gratitud",
+    "id": "G-019"
+  },
+  {
+    "texto": "El sabio no teme equivocarse, teme no aprender.",
+    "categoria": "Sabiduría",
+    "id": "S-010"
+  },
+  {
+    "texto": "Amar es acompañar sin intentar controlar.",
+    "categoria": "Amor",
+    "id": "A-013"
+  },
+  {
+    "texto": "La gratitud trae paz al corazón inquieto.",
+    "categoria": "Gratitud",
+    "id": "G-020"
+  },
+  {
+    "texto": "La verdadera sabiduría se refleja en la humildad.",
+    "categoria": "Sabiduría",
+    "id": "S-011"
+  },
+  {
+    "texto": "El amor se demuestra en los pequeños detalles.",
+    "categoria": "Amor",
+    "id": "A-014"
+  },
+  {
+    "texto": "Agradece lo que fue, confía en lo que vendrá.",
+    "categoria": "Gratitud",
+    "id": "G-021"
+  },
+  {
+    "texto": "La sabiduría escucha más de lo que habla.",
+    "categoria": "Sabiduría",
+    "id": "S-012"
+  },
+  {
+    "texto": "El amor es la fuerza más poderosa del universo.",
+    "categoria": "Amor",
+    "id": "A-015"
+  },
+  {
+    "texto": "La gratitud transforma cada instante en un tesoro.",
+    "categoria": "Gratitud",
+    "id": "G-022"
+  },
+  {
+    "texto": "Tu opinión sobre ti mismo importa más que la de otros.",
+    "categoria": "Autoestima",
+    "id": "AU-019"
+  },
+  {
+    "texto": "Eres capaz de superar cualquier desafío.",
+    "categoria": "Autoestima",
+    "id": "AU-020"
+  },
+  {
+    "texto": "Cada paso que das hacia ti mismo es valioso.",
+    "categoria": "Autoestima",
+    "id": "AU-021"
+  },
+  {
+    "texto": "No dejes que las dudas definan tu potencial.",
+    "categoria": "Autoestima",
+    "id": "AU-022"
+  },
+  {
+    "texto": "Tu autoestima es la clave de tu bienestar.",
+    "categoria": "Autoestima",
+    "id": "AU-023"
+  },
+  {
+    "texto": "Confía en tu voz interior, ella nunca te engaña.",
+    "categoria": "Autoestima",
+    "id": "AU-024"
+  },
+  {
+    "texto": "Eres capaz de lograr más de lo que imaginas.",
+    "categoria": "Autoestima",
+    "id": "AU-025"
+  },
+  {
+    "texto": "Cree en tu potencial y actúa en consecuencia.",
+    "categoria": "Autoestima",
+    "id": "AU-026"
+  },
+  {
+    "texto": "No temas mostrar tu verdadero yo.",
+    "categoria": "Autoestima",
+    "id": "AU-027"
+  },
+  {
+    "texto": "Tú decides tu valor, no otros.",
+    "categoria": "Autoestima",
+    "id": "AU-028"
+  },
+  {
+  "texto": "Ama tus fortalezas y acepta tus debilidades.",
+  "categoria": "Autoestima",
+  "id": "AU-029"
+  },
+  {
+    "texto": "Cada día es una oportunidad para fortalecer tu autoestima.",
+    "categoria": "Autoestima",
+    "id": "AU-030"
+  },
+  {
+    "texto": "Confía en tu valor incluso cuando otros duden.",
+    "categoria": "Autoestima",
+    "id": "AU-031"
+  },
+  {
+    "texto": "Agradecer convierte lo común en extraordinario.",
+    "categoria": "Gratitud",
+    "id": "G-023"
+  },
+  {
+    "texto": "Cada momento de gratitud multiplica tu alegría.",
+    "categoria": "Gratitud",
+    "id": "G-024"
+  },
+  {
+    "texto": "La gratitud abre puertas que el miedo cierra.",
+    "categoria": "Gratitud",
+    "id": "G-025"
+  },
+  {
+    "texto": "Agradecer es reconocer lo bueno que ya tienes.",
+    "categoria": "Gratitud",
+    "id": "G-026"
+  },
+  {
+    "texto": "Un corazón agradecido encuentra paz incluso en tormenta.",
+    "categoria": "Gratitud",
+    "id": "G-027"
+  },
+  {
+    "texto": "El tiempo revela la verdad, no la prisa.",
+    "categoria": "Sabiduría",
+    "id": "S-013"
+  },
+  {
+    "texto": "Saber cuándo hablar es tan importante como saber escuchar.",
+    "categoria": "Sabiduría",
+    "id": "S-014"
+  },
+  {
+    "texto": "La experiencia enseña lo que los libros no pueden.",
+    "categoria": "Sabiduría",
+    "id": "S-015"
+  },
+  {
+    "texto": "Reflexiona antes de actuar, y actuarás con sabiduría.",
+    "categoria": "Sabiduría",
+    "id": "S-016"
+  }
+]

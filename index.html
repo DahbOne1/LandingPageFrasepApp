@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraseo - Tu mejor acompañante en la mejora de tu autoestima, con frases de motivción diarias.</title>
+  <meta name="description" content="Esta es una pagina web de nuestra aplicación llamada fraseo, donde podras buscar y explorar todas las frases agregadas en nuestra app, ya disponible en la play store porcierto, podras ver las principales caracteristicas y el funcionamiento de las mismas, por ultimo podras aportar a la comunidad con tu frase personal.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="img/Icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-[#0b3e81]">
+
+
+  <!-- Modal -->
+<div id="modalResultados" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+  <div class="bg-white w-11/12 md:w-1/2 rounded-lg shadow-lg p-6">
+    <div class="flex justify-between items-center border-b pb-3">
+      <h3 class="text-xl font-semibold text-[#0b3e81]">Resultados de búsqueda</h3>
+      <button id="cerrarModal" class="text-gray-500 hover:text-red-500 text-2xl">&times;</button>
+    </div>
+    <div id="contenedorResultados" class="mt-4 max-h-64 overflow-y-auto space-y-2">
+      <!-- Aquí se cargan los resultados -->
+    </div>
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between text-[#f4f4f5] w-11/12 mx-auto px-6 py-2 bg-[#0b3e81] mt-8 rounded-full">
+    <img class="w-24 px-2 bg-[#f4f4f5]  rounded-full py-0" src="img/LogoHorizontal.png" alt="">
+    <ul class="hidden md:flex space-x-8 text-lg font-medium">
+      <li><a href="#caracteristicas" class="hover:text-[#2474ce] transition">Caracteristicas</a></li>
+      <li><a href="#funcionamiento" class="hover:text-[#2474ce] transition">Funcionamiento</a></li>
+      <li><a href="#participa" class="hover:text-[#2474ce] transition">Participa</a></li>
+    </ul>
+    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.digiwebstudio.fraseoapp" class="ml-6 bg-[#62c791] text-white px-5 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform">
+      Descargar App
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="w-11/12 mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Fraseo: <br> Tu acompañante diario de autoestima
+      </h1>
+      <p class="text-lg text-gray-600 mb-8">
+        Descubre y guarda frases motivacionales todos los días. Inspírate, comparte y comienza con energía.
+      </p>
+      <div class="bg-white p-3 rounded-full shadow-md flex items-center space-x-3 max-w-md">
+        <input type="text" placeholder="Busca una frase..." class="flex-1 px-4 py-2 rounded-full outline-none">
+        <button id="btnBuscar" class="bg-[#2474ce] text-white px-6 py-2 rounded-full hover:bg-[#0b3e81] transition">Buscar</button>
+      </div>
+    </div>
+    <div class="animate-fade-in">
+      <img class="w-full h-80 bg-gray-300 rounded-xl shadow-2xl flex items-center justify-center cover rounded-xl shadow-7xl" src="img/Hero.png" alt="">
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section id="caracteristicas" class="w-11/12 mx-auto px-6 pt-20 bg-[url('img/Background.png')] rounded-3xl text-[#f4f4f5]">
+    <h2 class="text-3xl font-bold text-center mb-12">Características principales</h2>
+    <p class="w-2/3 mb-12 mx-auto text-center">Porque todos necesitamos una dosis de motivación. Fraseo es simple, ligero y pensado para ti, que buscas crecer día a día con mensajes positivos y prácticos.</p>
+    <div class="grid md:grid-cols-3 gap-8 mb-0">
+      <img class="rounded-t-3xl shadow-2xl" src="img/features.png" alt="">
+      <img class="rounded-t-3xl shadow-2xl" src="img/features_two.png" alt="">
+      <img class="rounded-t-3xl shadow-2xl" src="img/Features_three.png" alt="">
+    </div>
+  </section>
+  <section class="pb-20 w-11/12 mx-auto px-6">
+    <div class="grid md:grid-cols-3 gap-8 mb-0">
+      <div class="bg-white p-8 rounded-b-xl shadow text-center">
+        <h3 class="text-xl font-semibold text-[#2474ce] mb-2">✨ Fácil de usar</h3>
+        <p class="text-gray-600">Accede a frases motivacionales en un clic, todos los días.</p>
+      </div>
+      <div class="bg-white p-8 rounded-b-xl shadow text-center">
+        <h3 class="text-xl font-semibold text-[#2474ce] mb-2">📊 Estadísticas</h3>
+        <p class="text-gray-600">Lleva un registro de tus frases favoritas y categorías.</p>
+      </div>
+      <div class="bg-white p-8 rounded-b-xl shadow text-center">
+        <h3 class="text-xl font-semibold text-[#2474ce] mb-2">📤 Comparte</h3>
+        <p class="text-gray-600">Envía frases a tus amigos con un solo toque.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="funcionamiento" class="w-11/12 mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl font-bold mb-6">Cómo funciona</h2>
+      <ul class="space-y-6 text-lg">
+        <li class="flex items-start space-x-4">
+          <span class="bg-[#62c791] text-white w-10 h-10 flex items-center justify-center rounded-full font-bold">1</span>
+          <p> <strong>Descarga e instala:</strong> Obtén la aplicación desde la Play Store y empieza a explorar el mundo de frases motivacionales.</p>
+        </li>
+        <li class="flex items-start space-x-4">
+          <span class="bg-[#62c791] text-white w-10 h-10 flex items-center justify-center rounded-full font-bold">2</span>
+            <p> <strong>Guarda tus favoritas:</strong> Encuentra frases que te inspiren y guárdalas en tu colección personal para tenerlas siempre a la mano.</p>
+        </li>
+        <li class="flex items-start space-x-4">
+          <span class="bg-[#62c791] text-white w-10 h-10 flex items-center justify-center rounded-full font-bold">3</span>
+          <p> <strong>Comparte con tus seres queridos:</strong> Envía esas frases especiales a tus amigos y familia para motivar e inspirar juntos cada día.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="w-full h-80 bg-gray-300 rounded-xl shadow-lg flex items-center justify-center">
+      <!-- Aquí va tu mockup -->
+      <img class="rounded-3xl shadow-2xl" src="img/Instrucciones.png" alt="">
+    </div>
+  </section>
+
+  <!-- Contacto --> 
+  <section id="contacto" class="w-11/12 container mx-auto px-6 py-16 bg-[url('img/Background.png')] rounded-3xl shadow-2xl">
+
+    <h2 class="text-3xl font-bold text-[#2474ce] mb-8 text-center animate__animated animate__fadeIn text-[#f4f4f5]">Participa con nosotros</h2> 
+    <p class="mx-auto w-1/2n text-center pb-8 text-[#f4f4f5]">¿Quieres que una de tus frases aparezca en nuesta app? Contactanos y mandanos tu frase para mostrarla a todo mundo</p>
+    <form class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg space-y-6 animate__animated animate__fadeInUp"> 
+      <div> 
+        <label for="email" class="block text-left font-semibold mb-2">Correo electrónico</label> 
+        <input type="email" id="email" name="email" required class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2474ce]"> 
+      </div> 
+      <div> 
+        <label for="categoria" class="block text-left font-semibold mb-2">Categoria</label> 
+        <select id="categoria" name="categoria" required class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2474ce]"> 
+          <option value="disciplina">Disciplina</option>
+          <option value="amistad" selected>Amistad</option>
+          <option value="amor">Amor</option>
+          <option value="sabiduria">Sabiduria</option>
+          <option value="gratitud" selected>Gratitud</option>
+          <option value="autoestima">Autoestima</option>
+          <option value="resiliencia" selected>Resiliencia</option>
+          <option value="tolerancia">Tolerancia</option>
+        </select>
+      </div> 
+      <div> 
+        <label for="frase" class="block text-left font-semibold mb-2">Frase</label> 
+        <textarea id="frase" name="frase" rows="4" required class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2474ce]"></textarea> 
+      </div> 
+      <button type="submit" class="bg-[#62c791] text-white px-6 py-3 rounded-lg shadow-lg hover:bg-green-500 transition mx-auto">Enviar</button> 
+    </form> 
+  </section>
+
+  <!-- App Download -->
+  <section class="bg-white py-20">
+    <div class="w-11/12 mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="w-full h-80 bg-gray-300 rounded-xl shadow-2xl flex items-center justify-center">
+        <!-- Aquí va tu mockup -->
+        <img class="shadow-2xl rounded-3xl" src="img/Form.png" alt="">
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Descarga nuestra app</h2>
+        <p class="text-gray-600 mb-6">Disponible en Google Play y App Store. ¡Empieza hoy mismo!</p>
+        <div class="flex space-x-4">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.digiwebstudio.fraseoapp" class="bg-[#0b3e81] text-white px-6 py-3 rounded-lg shadow hover:bg-[#2474ce] transition">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0b3e81] text-white py-12">
+   <!-- <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+      <div>
+        <h3 class="text-xl font-bold mb-4">FraseoApp</h3>
+        <p class="text-gray-300">Tu app de frases motivacionales para cada día.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Sobre nosotros</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#">Proyecto</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Equipo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Legal</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Términos de servicio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-4">Contacto</h4>
+        <p class="text-gray-300">correo@fraseoapp.com</p>
+        <p class="text-gray-300">+52 777 000 0000</p>
+      </div>
+    </div>-->
+    <div class="text-center text-gray-400 mt-10 text-sm">
+      © 2025 FraseoApp - Todos los derechos reservados.
+    </div>
+  </footer>
+</body>
+</html>
+
+<script src="script.js"></script>
