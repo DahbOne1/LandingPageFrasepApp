@@ -10,23 +10,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="text-[#0b3e81]">
 
 
   <!-- Modal -->
-<div id="modalResultados" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
-  <div class="bg-white w-11/12 md:w-1/2 rounded-lg shadow-lg p-6">
-    <div class="flex justify-between items-center border-b pb-3">
-      <h3 class="text-xl font-semibold text-[#0b3e81]">Resultados de búsqueda</h3>
-      <button id="cerrarModal" class="text-gray-500 hover:text-red-500 text-2xl">&times;</button>
-    </div>
-    <div id="contenedorResultados" class="mt-4 max-h-64 overflow-y-auto space-y-2">
-      <!-- Aquí se cargan los resultados -->
+  <div id="modalResultados" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+    <div class="bg-white w-11/12 md:w-1/2 rounded-lg shadow-lg p-6">
+      <div class="flex justify-between items-center border-b pb-3">
+        <h3 class="text-xl font-semibold text-[#0b3e81]">Resultados de búsqueda</h3>
+        <button id="cerrarModal" class="text-gray-500 hover:text-red-500 text-2xl">&times;</button>
+      </div>
+      <div id="contenedorResultados" class="mt-4 max-h-64 overflow-y-auto space-y-2">
+        <!-- Aquí se cargan los resultados -->
+      </div>
     </div>
   </div>
-</div>
 
   <!-- Navbar -->
   <nav class="flex items-center justify-between text-[#f4f4f5] w-11/12 mx-auto px-6 py-2 bg-[#0b3e81] mt-8 rounded-full">
@@ -41,27 +44,57 @@
     </a>
   </nav>
 
-  <!-- Hero -->
-  <section class="w-11/12 mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
-    <div>
-      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-        Fraseo: <br> Tu acompañante diario de autoestima
-      </h1>
-      <p class="text-lg text-gray-600 mb-8">
-        Descubre y guarda frases motivacionales todos los días. Inspírate, comparte y comienza con energía.
-      </p>
-     <!-- <div class="bg-white p-3 rounded-full shadow-md flex items-center space-x-3 max-w-md">
-        <input type="text" placeholder="Busca una frase..." class="flex-1 px-4 py-2 rounded-full outline-none">
-        <button id="btnBuscar" class="bg-[#2474ce] text-white px-6 py-2 rounded-full hover:bg-[#0b3e81] transition">Buscar</button>
-      </div>-->
+  <!--Hero-->
+  <section data-aos="fade-up" id="app-showcase" class="my-12 w-11/12 mx-auto rounded-3xl relative flex flex-col md:flex-row items-center justify-center overflow-hidden py-16 px-4 md:px-16 text-white">
+    <!-- Fondo animado -->
+    <div class="absolute inset-0 bg-[linear-gradient(270deg,#2563eb,#9333ea,#14b8a6)] bg-[length:600%_600%] animate-[gradientShift_12s_ease_infinite]">
     </div>
-    <div class="animate-fade-in">
-      <img class="w-full h-80 bg-gray-300 rounded-xl shadow-2xl flex items-center justify-center cover rounded-xl shadow-7xl" src="img/Hero.png" alt="Imagen con capturas de pantalla del funcionamiento y caracteristicas de la aplicación motivacional fraseo.">
+
+    <!-- Contenido principal -->
+    <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12 w-full max-w-6xl">
+      <!-- Texto -->
+      <div data-aos="fade-right" class="w-full md:w-1/2 text-center md:text-left space-y-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+            Fraseo: <br> Tu acompañante diario de autoestima
+          </h1>
+          <p class="text-lg  mb-8">
+            Descubre y guarda frases motivacionales todos los días. Inspírate, comparte y comienza con energía.
+          </p>
+          <div class="bg-white p-3 rounded-full shadow-md flex items-center space-x-3 max-w-md">
+            <input id="inputBuscar" type="text" placeholder="Busca una frase..." class="text-black flex-1 px-4 py-2 rounded-full outline-none">
+            <button id="btnBuscar" class="bg-[#2474ce] text-white px-6 py-2 rounded-full hover:bg-[#0b3e81] transition">Buscar</button>
+          </div>
+      </div>
+
+      <!-- Mockup 3D -->
+      <div data-aos="fade-left" class="w-full md:w-1/2 flex justify-center relative">
+        <!-- Aquí insertas tu mockup 3D -->
+        <div id="mockup-3d">
+           <div data-aos="zoom-in" class="relative w-[200px] h-[400px] mx-auto perspective" data-aos="zoom-in">
+            <div class="mockup-phone transform transition-transform duration-700 hover:rotate-y-12">
+              <img src="img/Mockup.jpeg" alt="App Fraseo" class="cover w-full h-full object-cover rounded-[1rem]" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Burbujas flotantes -->
+        <div class="absolute top-4 left-8 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm md:text-base animate-float1">
+          ⚡ Rápido y fluido
+        </div>
+        <div class="absolute bottom-10 right-0 md:bottom-10 md:right-14 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm md:text-base animate-float2">
+          💡 Interfaz intuitiva
+        </div>
+        <div class="absolute top-20 right-0 md:top-24 md:right-10 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full text-sm md:text-base animate-float3">
+          🔔 Notificaciones
+        </div>
+      </div>
     </div>
   </section>
 
+
+
   <!-- Core Features -->
-  <section id="caracteristicas" class="w-11/12 mx-auto px-6 pt-20 bg-[url('img/Background.png')] rounded-3xl text-[#f4f4f5]">
+  <section data-aos="fade-up" id="caracteristicas" class="w-11/12 mx-auto px-6 pt-20 bg-[url('img/Background.png')] rounded-3xl text-[#f4f4f5]">
     <h2 class="text-3xl font-bold text-center mb-12">Características principales</h2>
     <p class="w-2/3 mb-12 mx-auto text-center">Porque todos necesitamos una dosis de motivación. Fraseo es simple, ligero y pensado para ti, que buscas crecer día a día con mensajes positivos y prácticos.</p>
     <div class="grid md:grid-cols-3 gap-8 mb-0">
@@ -88,7 +121,7 @@
   </section>
 
   <!-- How it works -->
-  <section id="funcionamiento" class="w-11/12 mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+  <section data-aos="fade-up" id="funcionamiento" class="w-11/12 mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
     <div>
       <h2 class="text-3xl font-bold mb-6">Cómo funciona</h2>
       <ul class="space-y-6 text-lg">
@@ -112,12 +145,15 @@
     </div>
   </section>
 
+  
+
+
   <!-- Contacto --> 
-  <section id="contacto" class="w-11/12 container mx-auto px-6 py-16 bg-[url('img/Background.png')] rounded-3xl shadow-2xl">
+  <section data-aos="fade-up" id="participa" class="w-11/12 container mx-auto px-6 py-16 bg-[url('img/Background.png')] rounded-3xl shadow-2xl">
 
     <h2 class="text-3xl font-bold text-[#2474ce] mb-8 text-center animate__animated animate__fadeIn text-[#f4f4f5]">Participa con nosotros</h2> 
-    <p class="mx-auto w-1/2n text-center pb-8 text-[#f4f4f5]">¿Quieres que una de tus frases aparezca en nuesta app? <br> Contactanos y mandanos tu frase para mostrarla a todo mundo</p>
-    <form  class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg space-y-6 animate__animated animate__fadeInUp"> 
+    <p class="mx-auto w-1/2n text-center pb-8 text-[#f4f4f5]">¿Quieres que una de tus frases aparezcan en nuesta app? <br> Contactanos y mandanos tu frase para mostrarla a todo mundo</p>
+    <form action="https://formsubmit.co/oficial@fraseo.site" method="POST" class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg space-y-6 animate__animated animate__fadeInUp"> 
       <div> 
         <label for="email" class="block text-left font-semibold mb-2">Correo electrónico</label> 
         <input type="email" id="email" name="email" required class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2474ce]"> 
@@ -139,16 +175,18 @@
         <label for="frase" class="block text-left font-semibold mb-2">Frase</label> 
         <textarea id="frase" name="frase" rows="4" required class="w-full border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2474ce]"></textarea> 
       </div> 
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://yourdomain.co/gracias.html">
       <button type="submit" class="bg-[#62c791] text-white px-6 py-3 rounded-lg shadow-lg hover:bg-green-500 transition mx-auto">Enviar</button> 
     </form> 
   </section>
 
   <!-- App Download -->
-  <section class="bg-white py-20">
+  <section data-aos="fade-up" class="bg-white py-20">
     <div class="w-11/12 mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <div class="w-full h-80 bg-gray-300 rounded-xl shadow-2xl flex items-center justify-center">
+      <div class="w-full h-80 flex items-center justify-center">
         <!-- Aquí va tu mockup -->
-        <img class="shadow-2xl rounded-3xl" src="img/Form.png" alt="">
+        <img class="shadow-2xl rounded-3xl" src="img/Hero.png" alt="">
       </div>
       <div>
         <h2 class="text-3xl font-bold mb-6">Descarga nuestra app</h2>
@@ -189,10 +227,23 @@
       </div>
     </div>-->
     <div class="text-center text-gray-400 mt-10 text-sm">
-      © 2025 FraseoApp - Todos los derechos reservados.
+      © 2025 Fraseo de DigiWeb Studio- Todos los derechos reservados.
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,  // duración de las animaciones (ms)
+      once: true,       // se ejecutan una sola vez
+      offset: 100       // qué tan pronto aparece (px desde el viewport)
+    });
+  </script>
+
+
 </body>
 </html>
 
 <script src="script.js"></script>
+
+
+
